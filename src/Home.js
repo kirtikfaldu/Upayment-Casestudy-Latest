@@ -4,7 +4,7 @@ import {
   Link
 } from "react-router-dom";
 
-//Home 
+//Home  
 function Home() {
   const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZhbGR1cmFqbmlrQGdtYWlsLmNvbSIsImdpdGh1YiI6Imh0dHBzOi8vZ2l0aHViLmNvbS9mYWxkdS1yYWpuaWsiLCJpYXQiOjE2NTkyODE4NTEsImV4cCI6MTY1OTcxMzg1MX0.yFcZllKa3RlfuLg-YMakSG9UjkHed2I6kLp_dmTGMqw";
   const [selectedCategory, setSelectedCategory] = useState();
